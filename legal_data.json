@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "hallo", "Hi"],
+     "responses": ["Hi stranger, how can I be of help?", " yes, how can I help?", "Hello! I am a legal chatbot. How can I assist you today?","Ey watsupp", "Hey,how can help you today", "Hola", "Hey", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye","Okay", "Bye bye", "See you", "Bye bye", "Bye","Well"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later friend", "Alright", "Peace out", "Sure", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Big Minds", "My name is Big Minds", "You can call me BM for short", "I am Big Minds, my friends call me BM", "Big Minds is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help", "I need help","help me"],
+       "responses": ["I can help you legal questions", "I can answer law questions for you"]
+      },
+     {"tag": "patent and trademark" ,
+     
+      "patterns": ["What is the difference between a patent and a trademark?"],
+      "responses": ["A patent is a form of legal protection for an invention, while a trademark is a form of legal protection for a brand or symbol that is used to identify a business or product."]
+    },
+    {"tag": "political views",
+      "patterns": ["Can I be fired from my job for political views expressed on social media?" ],
+      "responses": ["It depends on the specific circumstances and the laws in your state. In some cases, employers may be prohibited from taking adverse action against employees for their political views or expression on social media."]
+    },
+    {"tag": "file for divorce",
+      "patterns": ["What is the process for filing for divorce?"],
+      "answer": ["The process for filing for divorce varies by state, but generally involves filing a petition with the court, serving the other spouse with notice of the petition, and attending hearings and/or mediation sessions to resolve issues related to property division, child custody, and support."]
+    },
+    {"tag": "medical malpractice",
+      "patterns": ["What is the statute of limitations for medical malpractice claims?"],
+      "responses": ["The statute of limitations for medical malpractice claims varies by state, but is typically between one and three years from the date of the alleged malpractice."]
+    },
+    {"tag": "intellectual property",
+      "patterns": ["How can I protect my intellectual property rights?" ],
+      "responses": ["Intellectual property rights can be protected through various means, including patents, trademarks, copyrights, and trade secrets. It may be helpful to consult with a lawyer to determine the best approach for protecting your specific intellectual property." ]
+    },
+    {"tag": "negative comments",
+      "patterns": ["Can I be sued for defamation if I post negative comments about a business on social media?"],
+      "responses": ["It is possible to be sued for defamation if your negative comments about a business are false and cause harm to the business's reputation. However, if your comments are truthful or opinion-based, they may be protected under free speech laws."]
+    },
+    {"tag": "obtain patent",
+      "patterns": ["What is the process for obtaining a patent?"],
+      "responses": ["The process for obtaining a patent involves filing a patent application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the invention meets the criteria for patentability."]
+    },
+    {"tag": "will",
+      "patterns": ["What is the difference between a will and a trust?"],
+      "responses": ["A will is a legal document that outlines how a person's assets should be distributed after their death, while a trust is a legal arrangement in which a trustee holds and manages assets on behalf of beneficiaries. Trusts may provide certain advantages over wills, such as privacy and flexibility."]
+    },
+    {"tag": "rights",
+      "patterns": ["What are my rights if I am arrested?"],
+      "responses": ["If you are arrested, you have the right to remain silent and the right to an attorney. You should exercise these rights and refrain from speaking to law enforcement until you have consulted with an attorney."]
+    },
+    {"tag": "criminal",
+      "patterns": ["What is the difference between a civil and a criminal case?"],
+      "responses":[ "Civil cases involve disputes between private parties, while criminal cases involve violations of criminal law and are prosecuted by the government. The burden of proof is typically lower in civil cases than in criminal cases."]
+    },
+    {"tag": "lawsuit",
+      "patterns": ["What is the process for filing a lawsuit?"],
+      "responses":[ "The process for filing a lawsuit varies by state, but generally involves filing a complaint with the court, serving the other party with notice of the complaint, and attending hearings and/or mediation sessions to resolve issues related to the case."]
+    },
+    {"tag": "trademark",
+      "patterns": ["What is the process for filing a trademark application?"],
+      "responses":[ "The process for filing a trademark application involves filing an application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the trademark meets the criteria for registration."]
+    },
+    {"tag": "patent",
+      "patterns": ["What is the process for filing a patent application?"],
+      "responses": ["The process for filing a patent application involves filing an application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the invention meets the criteria for patentability."]
+    },
+    {"tag": "copyright",
+      "patterns": ["What is the process for filing a copyright application?"],
+      "responses": ["The process for filing a copyright application involves filing an application with the United States Copyright Office and undergoing a review process to determine whether the work meets the criteria for copyright protection."]
+    },
+    {"tag": "trademark",
+      "patterns": ["What is the process for filing a trademark application?"],
+      "responses": ["The process for filing a trademark application involves filing an application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the trademark meets the criteria for registration."]
+    },
+    {"tag": "patent",
+      "patterns": ["What is the process for filing a patent application?"],
+      "responses": ["The process for filing a patent application involves filing an application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the invention meets the criteria for patentability."]
+    },
+    {"tag": "copyright",
+      "patterns": ["What is the process for filing a copyright application?"],
+      "responses": ["The process for filing a copyright application involves filing an application with the United States Copyright Office and undergoing a review process to determine whether the work meets the criteria for copyright protection."]
+    },
+    {"tag": "trademark",
+      "patterns": ["What is the process for filing a trademark application?"],
+      "responses": ["The process for filing a trademark application involves filing an application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the trademark meets the criteria for registration."]
+    },
+
+    {"tag": "statute of limitations, personal injury, medical malpractice, criminal, misdemeanor, felony, file for divorce, medical malpractice, negative comments, obtain patent, will, rights ",
+      "patterns": ["What is the statute of limitations for a personal injury claim in my state?"],
+      "responses":["The statute of limitations for a personal injury claim varies by state, but typically ranges from one to six years from the date of the injury. You can consult with a local personal injury attorney to determine the exact statute of limitations in your state."]
+    },
+    {"tag": "criminal, misdemeanor, felony",
+      "patterns": ["What is the difference between a misdemeanor and a felony?"],
+      "responses": ["Misdemeanors and felonies are two categories of criminal offenses. Misdemeanors are generally less serious offenses, such as minor drug offenses or traffic violations, and are punishable by up to a year in jail. Felonies are more serious offenses, such as murder, robbery, or drug trafficking, and are punishable by more than a year in prison."]
+    },
+
+    {"tag": "breach of contract, didn't hold up their end of contract",
+      "patterns":["Can I sue someone for breach of contract if they didn't hold up their end of the bargain?"],
+      "responses":["Yes, you can sue someone for breach of contract if they fail to uphold their end of the bargain. To do so, you would need to show that there was a valid contract in place, that the other party breached the contract, and that you suffered damages as a result of the breach. You can consult with a local contract attorney to discuss your specific situation and determine the best course of action."]
+    },
+    {"tag": "tenant,landlord,reapors",
+      "patterns":["What are my legal rights as a tenant if my landlord is refusing to make necessary repairs?"],
+      "responses":["As a tenant, you have the right to live in a safe and habitable property. If your landlord is refusing to make necessary repairs, you may be able to take legal action to force them to do so. This may involve filing a complaint with your local housing authority, withholding rent, or even breaking your lease if the repairs are not made. You can consult with a local landlord-tenant attorney to discuss your options."]
+    },
+    {"tag": "patent, invention, patent application",
+      "patterns": ["What is the process for getting a patent for my invention?"],
+      "responses":["The process for getting a patent for your invention involves filing a patent application with the United States Patent and Trademark Office (USPTO) and undergoing a review process to determine whether the invention meets the criteria for patentability."]
+    },
+    {"tag": "patent, invention, patent application, patent attorney, protect business idea, protect invention, protect idea, protect intellectual property, protect int",
+      "patterns":["How can I legally protect my business idea?"],
+      "responses":["You can legally protect your business idea by filing a patent application with the United States Patent and Trademark Office (USPTO). Filing a patent application will allow you to obtain a patent for your invention, which will give you the exclusive right to make, use, and sell your invention for a period of 20 years."]
+    },
+    {"tag": "valid will, will, estate planning, estate planning attorney, wills and trusts, wills and trusts attorney, wills and trusts lawyer, wills and trusts law",
+      "patterns": ["What are the requirements for creating a valid will in my state?"],
+      "responses": ["The requirements for creating a valid will vary by state, but generally include the following: the will must be in writing, the will must be signed by the testator, and the will must be signed by two witnesses. You can consult with a local estate planning attorney to determine the exact requirements for creating a valid will in your state."]
+    },
+    {"tag": "driving under the influence, DUI, DUI attorney, DUI lawyer, DUI law, DUI laws, DUI penalties, DUI penalties by state",
+      "patterns": ["What are the penalties for driving under the influence in my state?"],
+      "responses": ["The penalties for driving under the influence vary by state, but generally include fines, license suspension, and jail time. You can consult with a local DUI attorney to determine the exact penalties for driving under the influence in your state."]
+    },
+    {"tag": "harrassed, harrassment, harrassment attorney, harrassment lawyer, harrassment law, harrassment laws, harrassment rights, harrassment rights by state, harrassment rights by city, harrassment rights by county, harrassment rights by town, harrassment rights by municipality, harrassment by neighbor, harrassment by neighbor attorney, harrassment by neighbor lawyer, harrassment by neighbor law, harrassment by neighbor laws, harrassment by neighbor rights, harrassment by neighbor rights by state, harrassment by neighbor rights by city, harrassment by neighbor rights by county, harrassment by neighbor rights by town, harrassment by neighbor ",
+      "patterns": ["What are my legal rights if I am being harassed by a neighbor?"],
+      "responses": ["You have the right to live in a peaceful and quiet environment. If you are being harassed by a neighbor, you may be able to take legal action to stop the harassment. This may involve filing a complaint with your local police department, filing a restraining order, or even breaking your lease if the harassment continues. You can consult with a local landlord-tenant attorney to discuss your options."]
+    },
+    {"tag": "restraining order, restraining order attorney, restraining order lawyer, restraining order law, restraining order laws, restraining order rights, restraining order rights by state, restraining order rights by city, restraining order rights by county, restraining order rights by town, restraining order rights by municipality, restraining order by neighbor, restraining order by neighbor attorney, restraining order by neighbor lawyer, restraining order by neighbor law, restraining order by neighbor laws, restraining order by neighbor rights, restraining order by neighbor rights by state, restraining order by neighbor rights by city, restraining order by neighbor rights by county, restraining order by neighbor rights by town, restraining ord",
+      "patterns":["How can I obtain a restraining order against someone who is threatening me?"],
+      "responses":["You can obtain a restraining order against someone who is threatening you by filing a complaint with your local police department. You will need to show that you have a reasonable fear of harm from the other party. You can also consult with a local criminal defense attorney to discuss your options."]
+    }
+
+  ]
+}
